@@ -34,5 +34,5 @@ fireEvent.click(testNextButton)
 fireEvent.click(testPreviousButton)
 expect(mockGetData).toHaveBeenCalledTimes(1)
      
-wait(() => expect(getByText(/'Darth'/i)))
+wait(() => expect(getByText(/'Rey'/i)))
 })
